@@ -12,4 +12,4 @@ if (userAge < 18) {
 
 let priceDiscount = (price - discount).toFixed(2);
 
-document.getElementById("price").innerHTML = "Il prezzo del suo biglietto è: " + (priceDiscount)
+document.getElementById("price").innerHTML = "Il prezzo del suo biglietto è: " + (priceDiscount) + "€"
